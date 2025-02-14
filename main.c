@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    char arr[100];
+    char array[100];
     int vocali = 0, consonanti = 0;
     printf("Inserisci una stringa di lettere maiuscole: ");
     scanf("%s", arr);
-    for (int i = 0; arr[i] != '\0'; i++) {
-        char c = arr[i];
+    for (int i = 0; array[i] != '\0'; i++) {
+        char c = array[i];
         if (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U') {
             vocali++;
         } else if (c >= 'A' && c <= 'Z') {
