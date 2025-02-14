@@ -4,7 +4,7 @@ int main() {
     char array[100];
     int vocali = 0, consonanti = 0;
     printf("Inserisci una stringa di lettere maiuscole: ");
-    scanf("%s", arr);
+    scanf("%s", array);
     for (int i = 0; array[i] != '\0'; i++) {
         char c = array[i];
         if (c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U') {
